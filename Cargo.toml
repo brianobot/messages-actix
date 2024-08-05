@@ -1,0 +1,12 @@
+[package]
+name = "messages-actix"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brian Obot <brianobot9@gmail.com>"]
+
+[dependencies]
+actix-web = "1.0"
+env_logger = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "= 0.4.29" }
